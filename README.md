@@ -170,7 +170,7 @@ void LogPrintf(char *format, ...)
 Notes:&nbsp;&nbsp;如果要防止数据溢出上述代码需要再作修改。
 <br>
 <br>
-   用IO口置高表示开始输出打印信息，置低表示结束输出打印信息
+   用IO口置高表示开始输出打印信息，置低表示结束输出打印信息，stm32f103xx_uart_printf_log.rar 是串口输出打印信息测试代码。
    <br>
 
    ![](uart_115200_dma.png)
